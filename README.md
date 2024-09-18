@@ -113,9 +113,3 @@ pip install torch torchvision Pillow pycocotools numpy psutil matplotlib seaborn
   
 - For Windows users who wish to run the application natively, the `tkinter` and other graphical libraries should work as expected, but you may need to install additional dependencies using your package manager.
 
-## License
-[Specify your license here, e.g., MIT License]
-
----
-
-This format will give clear instructions to users on how to set up and run the program in both Linux and Windows environments, including WSL 2.
