@@ -105,6 +105,11 @@ Ensure the required data files or resources are in the correct directories if th
 
 ## Additional Notes
 - **WSL 2.0** allows you to run Linux applications directly on Windows. If you experience issues with the display of graphical applications like `tkinter` or `matplotlib` under WSL, you may need an X server (such as [VcXsrv](https://sourceforge.net/projects/vcxsrv/)) to forward graphical output from WSL to Windows.
+
+## Installed Libraries
+   ```bash
+pip install torch torchvision Pillow pycocotools numpy psutil matplotlib seaborn tqdm rouge-score nltk scikit-learn scipy
+   ```
   
 - For Windows users who wish to run the application natively, the `tkinter` and other graphical libraries should work as expected, but you may need to install additional dependencies using your package manager.
 
